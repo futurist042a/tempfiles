@@ -1,0 +1,20 @@
+Hi All,
+
+Wanted to follow up on the scorecards.  The quality of the PDF is not optimal – I realize this and I apologize it’s not the easiest to read!   
+
+I’ve found is not an easy task translating from our survey program to Excel and then to a format readable/distributable that’s modular to separate out to each of you guys.  But that’s my own issue!  Hopefully it at least provides some context and feedback based on what I provide below… but of course feel free to reach out directly or discuss with Dakota in your one-on-one!
+
+I thought I’d provide the statement text below that each judge marked their ratings against so that would be of help.  For the ratings themselves, hopefully those can be deciphered and read well enough but if not, let me know and I’ll try to send something separate.
+
+Here are the statements:
+
+CUSTOMER(S): The Team outlined a distinct customer group or groups.
+MARKET: The market was explained and supported with evidence.
+OVERALL: This idea has great potential  to solve a clear problem and provide value to the bank.
+PROBLEM/OPPORTUNITY: The problem and/or opportunity was clearly defined with supporting evidence.
+PROTOTYPE: The Team did a good job showing a Minimum Viable Prototype for their idea.
+RECOMMENDATION: The Team should move forward and continue work on this project.
+SOLUTION: The team presented a clear and concise solution that addresses the problem/opportunity outlined.
+THE PITCH: The Team was able to articulate their idea and its value in a concise, compelling manner.
+VALUE PROP: The Team articulated a clear value proposition related to their idea.
+NEXT STEPS: The Team's next steps where clear, concise, and on track for moving their idea forward.
