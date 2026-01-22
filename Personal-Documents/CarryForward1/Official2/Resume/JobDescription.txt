@@ -1,0 +1,35 @@
+1- Lead Architect for BPM applications: Wealth Management & Investment Services: Corporate Trust Account Opening (CTAO), Personal Trust Account Opening (PTAO), Institutional Trust Account Opening (ITAO), PTAM, PTA, Lot Notes Non-Fees Apps, Lotus Notes Fee App (ENTRATA), SPQR, Global Funds Service OnBoarding (GFSO). 
+2. Strategizing BPM Future State. 
+3. Company-wide initiatives – TOS2020. 
+4. APIs, DevOps and Agile methodology (SCRUM) 
+5. Innovated ideas. Innovator Inside Residence (IIR) program 
+6. Managed Architecture Artifacts, SADs, TADs, SAD reviews, ARB reviews etc. for BPM projects. 
+7. Conducted code reviews, developed frameworks, guided and lead teams to continuous improvement. 
+8. Contributed in DevOps: Production Issues, Database performance monitoring tools (IDERA), DB Query optimization, find long running queries, Server Monitoring tools, Materialized Views vs Non-Materialized Views, DB joins vs no DB joins, Relational DB vs zero relation DB (Mongo DB), Clustered indexes versus Non-Clustered Indexes, Fixing the indexes, Oracle vs SQL Server, Physical Server vs Virtual Machine (VMWare), Security (SSL), Deployment & Release Management tools, Code management tools, Performance/Load Testing (Load Runner), Capacity Analysis, Server configuration, Unit Testing (Selenium), Functional Testing, Development and DevOps resources organization under Agile methodology (testers part of Dev team), Testing Automation (Automation Anywhere). Research on tools or Architect tools for Codeless, configuration based development. Architect support/admin tools. Working on 1-Click deployment concept.
+9- APIs: Use of existing corporate APIs versus duplicating effort. Designing BPM headless workflow APIs for external UI/UX. Integrations following corporate strategies. MQ vs REST vs SOAP vs TIBCO EMS. ETL for B2B data transfer or transactional db to Reporting/Archival db data transfer. External System interfaces & proxies: SEI, ODT, biz db, CBRS, ACATS. File-based endpoints, mainframe endpoints, connect direct. Use of integration tools, like TIBCO, WISE API layer, OSB API layer. Consolidating APIs with multiple endpoints. APIs for airline tickets reservation systems (GDS). APIs for ATMs, ATMs controller. 
+10- Agile Methodology: Scrum, Scrum Team vs Scrum Extended Team. Team organization, role of Architect, project manager. Identify Product owner from business line contacts. Working module versus documentation. Simplicity, Collaboration. Optimizing architecture artifacts like SAD and SAD reviews through Architecture Review Board and Agile methodology. Sprint cycles/schedules. Development and testing within sprint. Version 1 project work/ sprints management. Empowering team, vertical & horizontal learning, DevOps scale, user story acceptance criteria scripts/automation, efficient collaboration with other technology teams, breaking silos, do more but no duplicate, no stepping on other’s foot. 
+11- Strategizing BPM Future State. Applying company-wide initiatives – TOS2020. Working with strategists and architects and contributing in corporate strategies 
+A- Increased speed, agility and scalability 
+a- Zero Server LOAD, File upload API algorithm. Browser to API connection. 
+b- Common UI/UX Theme. Common coach views and common services. Plug and Play model 
+B- Integration of business, technology, and operations teams, shifting mindset 
+a- Consolidate and reusable integration with Data platforms/ Data Lake. Using technology where it is best at and at the same time empowering teams beyond their domain. 
+b- Bringing testers to dev team. DevOps and agility coming together. 
+C- Continuous innovation and improvement  
+a- Simplicity: One DB design. Reusable object persistence model as BPM deals in objects.
+b- Improvement: Code for evolution. Business rules model that could be shifted to Business rules engine technology 
+D- Reinvent and automate processes 
+a- BPM is all about business process automation. Architected several apps as mentioned above. OnBoarding roadmap completion for Investment services. 
+E- Digitization while improving security 
+a- Introducing eSign Capabilities into BPM through integration with eSign 
+b- Leveraging reporting tools like DAS-H. 
+F- Iterate and Collaborate: Agile development framework 
+a- BPM is following Agile development framework: “SCRUM” since last couple of years. 
+b- Emphasized on continuous improvement to reach agility levels. There is never a final destination to rest; there is always what is next. For Agile Framework/Scrum, Maturity level is at a certain point for an organization like what they have automated and how much documentation is reduced but then the next level is reduce documentation even further and automate even more. 
+12- Keen interest in innovation and regular contributor\participant in this regard. 
+A- Pitched an IDEA for USB Telethon Conference App. Idea selected among top five finalists who then pitched their idea to Chief Information Officer (CIO). 
+B- Member of Innovator inside Residence team. 
+C- Submitted Idea for Spring Innovation Cohort 2018 Challenge called OneBridge. The idea was to create a connection between business line and TOS, to gather business ideas/issues and get them ideated through TOS. The idea was selected from among several other ideas and successfully cultivated through several Cohort’s weekly cycles: https://ideaplace.usbank.com/D5102 
+C- Submitted Idea for 2019 Artificial Intelligence Challenge called “Personal Accountant” - . The idea was selected successfully from among several other ideas: https://ideaplace.usbank.com/D8531 
+D- Submitted Idea for 2019 Artificial Intelligence Challenge called “AI Based Blockchains”: https://ideaplace.usbank.com/D8531 
+E- Submitted Idea for 2019 Artificial Intelligence Challenge called “Investment Performance Predictor”: https://ideaplace.usbank.com/D8671
