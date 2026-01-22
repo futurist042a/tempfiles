@@ -1,0 +1,137 @@
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+080013914200 SHARNA^DAVIS TEST FBO ERIN DAVIS IMA                                     36         347          667
+25642440     B VLACICH &amp; R^CLARK TEST ADV AGY                                     36         347          667
+19-8680      STONE RDG ASSET MGMT LLC-VRP TEST AC                                     36         347          667
+000011100107 K PERRY^BRYAN TEST TR FBO ELIZABETH                                      35         347          667
+173025360    SER2015-XF0279 STATEST LIQ PROV SEC                                      35         347          667
+040006664100 P B^RAEMISCH TEST FBO JOHN RAEMISCH                                      35         347          667
+000011100102 K PERRY^BRYAN TEST TR FBO GEOFFREY                                       34         347          667
+280155100    BAW TEST RAB 6-30-19 2019 - A TEST                                       34         347          667
+262417000    ALS TESTING MARSHFIELD ESCROW 2017                                       34         347          667
+121214106100 ARTHUR J^ROGERS TEST CHARITABLE TR                                       34         347          667
+000011100103 K PERRY^BRYAN TEST TR FBO RICHARD                                        33         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+080013913000 SHARNA^DAVIS TEST FBO M DAVIS IMA                                        33         347          667
+MINORS       MINOR ASSET CLASS CHANGES TEST AC                                        33         347          667
+279989000    CORPMUNI TEST DEAL SEI 06-23-2018                                        33         347          667
+223025000    TESTING HOLDINGS VORA ESCROW 2017                                        33         347          667
+000011100104 K PERRY^BRYAN TEST TR FBO ROBERT                                         32         347          667
+TGIFA        TEST ACCOUNT #2 FOR INTERNAL USE                                         32         347          667
+280027000    GSF TEST DEAL 10-20-18 TEST ACCT                                         32         347          667
+000016105500 JOSEPHINE^RATNER TEST FOR JOSEPH                                         32         347          667
+000011100106 K PERRY^BRYAN TEST TR FBO CAROL                                          31         347          667
+TGIF         TEST ACCOUNT FOR INTERNAL USE X                                          31         347          667
+066628582    D^KRAMER TEST RES TR FBO LESLIE                                          31         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+000011100108 K PERRY^BRYAN TEST TR FBO JEAN                                           30         347          667
+000011100100 KATHARINE PERRY^BRYAN TEST TR                                            29         347          667
+000011100105 K PERRY^BRYAN TEST TR FBO ANN                                            29         347          667
+CAPS-TEST    CORPORATE ACTION TEST ACCOUNT                                            29         347          667
+280155000    BAW TEST RAB 6-30-19 2019 - A                                            29         347          667
+066628583    D^KRAMER TEST RES TR FBO LANE                                            29         347          667
+ERIC1        TESTING ERIC STEFL'S HOLDERS                                             28         347          667
+000011021600 E V^DAVIDSON 1961 TR FOR G C                                             28         347          667
+58001460     P C^HYSON TEST J C H PARKER                                              27         347          667
+280095000    CORPMUNI TEST DEAL 04-06-19                                              27         347          667
+06-TEST-CON  TEST CONSOLIDATING ACCOUNT                                               26         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+GLOBAL-GBP   GLOBAL TEST BRITISH POUNDS                                               26         347          667
+279980-100   CDO SMOKETEST NEW 06-23-18                                               26         347          667
+19-516290    CREATIVE TESTING SOLUTIONS                                               26         347          667
+GLOBALCROSS  GLOBAL CROSS TEST ACCOUNT                                                25         347          667
+WMDIGITAL-29 WMDIGITAL TEST ACCOUNT 29                                                25         347          667
+WMDIGITAL-10 WMDIGITAL TEST ACCOUNT 10                                                25         347          667
+WMDIGITAL-11 WMDIGITAL TEST ACCOUNT 11                                                25         347          667
+WMDIGITAL-12 WMDIGITAL TEST ACCOUNT 12                                                25         347          667
+WMDIGITAL-13 WMDIGITAL TEST ACCOUNT 13                                                25         347          667
+WMDIGITAL-14 WMDIGITAL TEST ACCOUNT 14                                                25         347          667
+WMDIGITAL-15 WMDIGITAL TEST ACCOUNT 15                                                25         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+WMDIGITAL-16 WMDIGITAL TEST ACCOUNT 16                                                25         347          667
+WMDIGITAL-17 WMDIGITAL TEST ACCOUNT 17                                                25         347          667
+WMDIGITAL-18 WMDIGITAL TEST ACCOUNT 18                                                25         347          667
+WMDIGITAL-19 WMDIGITAL TEST ACCOUNT 19                                                25         347          667
+WMDIGITAL-20 WMDIGITAL TEST ACCOUNT 20                                                25         347          667
+WMDIGITAL-21 WMDIGITAL TEST ACCOUNT 21                                                25         347          667
+WMDIGITAL-22 WMDIGITAL TEST ACCOUNT 22                                                25         347          667
+WMDIGITAL-23 WMDIGITAL TEST ACCOUNT 23                                                25         347          667
+WMDIGITAL-24 WMDIGITAL TEST ACCOUNT 24                                                25         347          667
+WMDIGITAL-25 WMDIGITAL TEST ACCOUNT 25                                                25         347          667
+WMDIGITAL-26 WMDIGITAL TEST ACCOUNT 26                                                25         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+WMDIGITAL-27 WMDIGITAL TEST ACCOUNT 27                                                25         347          667
+WMDIGITAL-28 WMDIGITAL TEST ACCOUNT 28                                                25         347          667
+TRADE-ADVICE TRADE ADVICE TEST ACCOUNT                                                25         347          667
+AGGTEST1234  PERFORMANCE TEST ACCOUNT                                                 24         347          667
+AGGTRUST1    PERFORMANCE TEST ACCOUNT                                                 24         347          667
+ITCPIVOTDEMO ITC PIVOT DEMO TEST ACCT                                                 24         347          667
+TRUSTNOW     TRUSTNOW DEMO 1 TEST A/C                                                 24         347          667
+TRUSTNOW1    TRUSTNOW DEMO 2 TEST A/C                                                 24         347          667
+WMDIGITAL-01 WMDIGITAL TEST ACCOUNT 1                                                 24         347          667
+WMDIGITAL-09 WMDIGITAL TEST ACCOUNT 9                                                 24         347          667
+WMDIGITAL-03 WMDIGITAL TEST ACCOUNT 3                                                 24         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+WMDIGITAL-04 WMDIGITAL TEST ACCOUNT 4                                                 24         347          667
+WMDIGITAL-05 WMDIGITAL TEST ACCOUNT 5                                                 24         347          667
+WMDIGITAL-06 WMDIGITAL TEST ACCOUNT 6                                                 24         347          667
+WMDIGITAL-07 WMDIGITAL TEST ACCOUNT 7                                                 24         347          667
+WMDIGITAL-08 WMDIGITAL TEST ACCOUNT 8                                                 24         347          667
+WMDIGITAL-02 WMDIGITAL TEST ACCOUNT 2                                                 24         347          667
+000011017600 ANDERSON FAMILY TEST TR                                                  23         347          667
+000011099100 RAY A^BROWN RES TEST TR                                                  23         347          667
+173135-119   EFS DAC RE TEST ACCOUNT                                                  23         347          667
+DEPOTEST1    DEPOSITARY TEST ACCT #1                                                  23         347          667
+DEPOTEST2    DEPOSITARY TEST ACCT #2                                                  23         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+DEPOTEST3    DEPOSITARY TEST ACCT #3                                                  23         347          667
+DEPOTEST4    DEPOSITARY TEST ACCT #4                                                  23         347          667
+280066000    GSF TEST DEAL 01-12-19                                                   22         347          667
+I81U811      CHRISTY'S TEST ACCOUNT                                                   22         347          667
+I81U812      CHRISTY'S TEST ACCOUNT                                                   22         347          667
+259856000    GSF TEST DEAL 04-27-19                                                   22         347          667
+TICWEB       TICWEB TEST ACCOUNT #1                                                   22         347          667
+GLOBALEUR    GLOBAL TESTING - EURO                                                    21         347          667
+EBRBOOK      EBR TEST ACCOUNT BOOK                                                    21         347          667
+02052019TEST ITAO 02052019 TEST II                                                    21         347          667
+260884001    GSF TEST DEAL 052817                                                     20         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+GLOBALGBP    GLOBAL TESTING - GBP                                                     20         347          667
+TEST         TEST ACCOUNT-GENERIC                                                     20         347          667
+06-TEST      EBR TESTING ACCOUNT                                                      19         347          667
+PORTFOLIO    SAMPLE TEST ACCOUNT                                                      19         347          667
+GLOBAL300    GLOBAL TEST ACCOUNT                                                      19         347          667
+GLOBAL       GLOBAL TEST ACCOUNT                                                      19         347          667
+GLOBALUSD    GLOBAL USD TEST AC                                                       18         347          667
+ERIC2        TESTING FOR ERIC                                                         16         347          667
+SMOKETESTR1  SMOKE TEST RIA 1                                                         16         347          667
+GCTTEST4     TEST CUSTODY EUR                                                         16         347          667
+123TEST      TESTINGOPTY123                                                           14         347          667
+
+ACCOUNT_NUMB ACCOUNT_SHORT_NAME                                                SN_LENGTH DOCUMENT_ID REFERENCE_ID
+------------ ---------------------------------------------------------------- ---------- ----------- ------------
+GLOBAL502    GLOBAL TEST AC                                                           14         347          667
+GCTTEST2     TEST CASH  GBP                                                           14         347          667
+TNEDEMO      TNE TEST DEMO                                                            13         347          667
+GCTTEST1     TEST CASH USD                                                            13         347          667
+GCTTEST3     TEST CASH EUR                                                            13         347          667
+
+104 rows selected. 
+

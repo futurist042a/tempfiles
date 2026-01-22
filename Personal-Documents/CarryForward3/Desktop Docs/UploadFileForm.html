@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<input type="file" name="file" id="fileselect" />
+<br>
+<br>
+<div>
+<button onclick="doSOAPPost()">Call SOAP</button>
+<button onclick="doRESTPost()">Call REST</button>
+</div>
+
+<script>
+function uploadFileChange(fileObj) {
+	var validSize = true;
+    var fileObjName = "globalFileList";
+    var files = window[fileObjName];
+	console.log("Inside File");
+    if (fileObj.target.files[0]) {
+    	console.log(files);
+	console.log(fileObj.target.files);
+        if (validSize) {
+            // Get unique id of the row.
+            var rowUID = "046b6c7f-0b8a-43b9-b35d-6489e6daee91";
+
+            // Populate global javascirpt object that holds files.
+           // files[rowUID] = fileObj.target.files[0];
+        }
+    }
+}
+document.getElementById("fileselect").addEventListener('change', uploadFileChange, false);
+
+function doSOAPPost(){
+	var xhr = new XMLHttpRequest;
+	xhr.onreadystatechange = function() {
+		4 === xhr.readyState && (200 === xhr.status ? response = xhr.response : response = 'An error occurred!|ResponseStatus: ' + xhr.status + '|ResponseState: ' + xhr.readyState + '|ResponseMsg: ' + xhr.response + '|Error Msg in Response: ' + xhr.statusText);
+	};
+	formData = new FormData, formData = new FormData();
+	formData.append('PROXY_WORK_AREA', 'usb.pt.IT');
+	formData.append('requestId', '23142349hh243nbj24432_Test');
+	formData.append('creatorId', 'c031278');
+	formData.append('filenet.call.type', 'SOAP');
+	formData.append('filenet.connection.url', 'https://it-fn-cwscontentmanagementservice.us.bank-dns.com/ContentManagementService.svc/basicStream');
+	formData.append('filenet.connection.applicationId', 'USBIBPMAPPID');
+	formData.append('filenet.connection.encryptedpwd', 'tmKMcDJVDH5uWSwADkJvDp+6PYZ39shRntj3h2C9W+A=');
+	formData.append('filenet.connection.key.filename', 'itao.key');
+	formData.append('filenet.applicationKey', 'TRST');
+	formData.append('filenet.byPassPreProcessing', 'true');
+	formData.append('filenet.commitAsMinorVersion', 'false');
+	formData.append('filenet.repository', 'TRST-IMAGE-IT');
+	formData.append('filenet.documentClass', 'TrustIT');
+	formData.append('filenet.useAESEncryption', 'true');
+	formData.append('ptit_acctnum', '000011811715');
+	formData.append('tr_name', 'DAVID H^LEIBENSON UNITRUST');
+	formData.append('tr_doctype', '13');
+	formData.append('tr_comment', 'Testing Only');
+	formData.append('ref_number', '34234');
+	formData.append('ref_date', '09/10/2019 08:28');
+	formData.append('file', document.getElementById('fileselect').files[0], document.getElementById('fileselect').files[0].name);
+	console.log('START ', new Date);
+	xhr.open('POST', 'https://it-usbi.us.bank-dns.com:10960/FilenetProxy/UploadDocs', !1);
+	xhr.send(formData);
+	console.log('END ', new Date);
+	console.log(response); 
+}
+
+function doRESTPost(){
+	var xhr = new XMLHttpRequest;
+	xhr.onreadystatechange = function() {
+		4 === xhr.readyState && (200 === xhr.status ? response = xhr.response : response = 'An error occurred!|ResponseStatus: ' + xhr.status + '|ResponseState: ' + xhr.readyState + '|ResponseMsg: ' + xhr.response + '|Error Msg in Response: ' + xhr.statusText);
+	};
+	formData = new FormData, formData = new FormData();
+	formData.append('PROXY_WORK_AREA', 'usb.pt.IT');
+	formData.append('requestId', '23142349hh243nbj24432_Test');
+	formData.append('creatorId', 'c031278');
+	formData.append('AccountNumbers', '080012704600,type=Collection(Edm.String)');
+	formData.append('AccountNumbers', '080012753900,type=Collection(Edm.String)');
+	formData.append('AccountShortNames', 'DAVID A^ULLRICH LIVING TR AGENCY PLG,type=Collection(Edm.String)');
+	formData.append('AccountShortNames', 'DAVID E^DOVENBERG TRUST AGENCY,type=Collection(Edm.String)');
+	formData.append('Doctype', '13');
+	formData.append('DocumentDate','2019-10-03T05:00:00.000Z,type=Edm.DateTime');
+	formData.append('Comments','Testing Only');
+	formData.append('documentTitle',document.getElementById('fileselect').files[0].name);
+	formData.append('file', document.getElementById('fileselect').files[0], document.getElementById('fileselect').files[0].name);
+	console.log('START ', new Date);
+	xhr.open('POST', 'https://it-usbi.us.bank-dns.com:10960/FilenetProxy/UploadDocs', !1);
+	xhr.send(formData);
+	console.log('END ', new Date);
+	console.log(response); 
+}
+</script>
+</body>
+</html>

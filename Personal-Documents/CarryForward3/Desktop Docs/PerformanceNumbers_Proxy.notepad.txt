@@ -1,0 +1,140 @@
+Proxy is being used by PTFN and USBi along with this app, so below is numbers from all the apps and in the end is the requirement for performance test
+
+--PTFN
+
+--DB table USB_PT.PT_FILENET_ELECTUPL
+use USB_PT;
+select CONVERT(date, created_date) date, count(*) total  from pt_FILENET_ELECTUPL group by CONVERT(date, created_date) order by total desc;
+--Max uploads in a day 1138
+
+--Evaluating Concurrent now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/10) dateRangeOf10Minutes, count(*) total   from pt_FILENET_ELECTUPL group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/10) order by total desc;
+-- Max 63 within range of 10 minutes.
+
+--Evaluating Concurrent requests now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/5) dateRangeOf5Minutes, count(*) total   from pt_FILENET_ELECTUPL group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/5) order by total desc;
+-- Max 36 within range of 5 minutes.
+
+--Evaluating Concurrent requests now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/2) dateRangeOf2Minutes, count(*) total   from pt_FILENET_ELECTUPL group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/2) order by total desc;
+-- Max 25 within range of 2 minutes.
+
+--Evaluating Concurrent requests now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/1) dateRangeOf1Minutes, count(*) total   from pt_FILENET_ELECTUPL group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/1) order by total desc;
+-- Max 24 within range of 1 minutes.
+--Using 5 minutes mark, concurrent requests are 36
+
+select CONVERT(date, created_date) date, count(distinct created_by) total  from pt_FILENET_ELECTUPL group by CONVERT(date, created_date) order by total desc;
+--Max unique users in a day 170
+
+------------------------------------
+
+--USBI
+
+--DB table -> USB_USBILite.USBI_FileNet_Electronicupload 
+
+--Communicated by Sneha
+--Average Users per day – 270
+--Documents at any given time – not more than 4 (concurrent)
+--Average uploads = 270
+--(average 1 upload 1 user, max 5 uploads seen for a user)
+--Max Uploads = 350;
+
+use USB_USBILite;
+select CONVERT(date, created_date) date, count(*) total  from USBI_FileNet_Electronicupload group by CONVERT(date, created_date) order by total desc;
+-- Max uploads in a day 537
+
+--Evaluating Concurrent now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/10) dateRangeOf10Minutes, count(*) total   from USBI_FileNet_Electronicupload group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/10) order by total desc;
+-- Max 58 within range of 10 minutes.
+
+--Evaluating Concurrent requests now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/5) dateRangeOf5Minutes, count(*) total   from USBI_FileNet_Electronicupload group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/5) order by total desc;
+-- Max 45 within range of 5 minutes.
+
+--Evaluating Concurrent requests now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/2) dateRangeOf2Minutes, count(*) total   from USBI_FileNet_Electronicupload group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/2) order by total desc;
+-- Max 24 within range of 2 minutes.
+
+--Evaluating Concurrent requests now.
+select concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/1) dateRangeOf1Minutes, count(*) total   from USBI_FileNet_Electronicupload group by concat(CONVERT(date, created_date),' ',datepart(hour,created_date),':', datepart(minute,created_date)/1) order by total desc;
+-- Max 18 within range of 1 minutes.
+--Using 5 minutes mark, concurrent requests are 45
+
+select CONVERT(date, created_date) date, count(distinct created_by) total  from USBI_FileNet_Electronicupload group by CONVERT(date, created_date) order by total desc;
+--Max unique users in a day 35
+
+--Email From Sneha for USBi upload file size.
+>>>>>>>>>>>>>>
+Hi Awais,
+Please find the information below on USBI Electronic Upload file sizes
+Thanks,
+Sneha
+From: Dinndorf, Dean M
+Sent: Thursday, September 26, 6:13 PM
+Subject: RE: USBI Electronic Upload Query for Document Size in FileNet 
+To: Ponnapalli, Sneha
+
+Avg:  268,278 bytes
+Min:  0 bytes ( Not sure about what this might be, if you want deeper analysis I can check) 
+Max: 13,459,751 bytes
+ 
+From: Ponnapalli, Sneha 
+Sent: Thursday, September 26, 2019 4:58 PM
+To: Dinndorf, Dean M <dean.dinndorf@usbank.com>
+Subject: RE: USBI Electronic Upload Query for Document Size in FileNet 
+ 
+Averaged and max/min filesizes should work.
+ 
+Thanks,
+Sneha
+ 
+From: Dinndorf, Dean M 
+Sent: Thursday, September 26, 2019 5:51 PM
+To: Ponnapalli, Sneha <sneha.ponnapalli@usbank.com>
+Subject: RE: USBI Electronic Upload Query for Document Size in FileNet 
+ 
+What other metadata do you want along with the filesize or do you want the filesize totaled/averaged, or do you want just all of the metadata including the CONTENT_SIZE field dumped since 6/19?
+ 
+From: Ponnapalli, Sneha 
+Sent: Thursday, September 26, 2019 4:43 PM
+To: Dinndorf, Dean M <dean.dinndorf@usbank.com>
+Subject: USBI Electronic Upload Query for Document Size in FileNet 
+ 
+Hi Dean,
+ 
+I need a help to query USBI Fax class for ingestion source: USBI Electronic Upload  and get the file sizes for those documents. Date Range could be starting from 06/19.
+ 
+Let me know if you need more information.
+ 
+Appreciate your help!
+ 
+ 
+Thanks,
+Sneha
+<<<<<<<<<<<<<<<<<<<<<<
+
+-----------------------------------------
+
+--ITFNU
+
+--Total User = 220
+--Average Users = 110
+--Concurrent Users = 50
+
+--Max File size = 1100 pages (max = 5mb)
+------------------------------------------
+
+--Conclusion.
+--FOR ALL
+
+--Concurrent users = 131
+--Max File Size = 5mb
+
+--For Performance Test
+--Concurrent Users = 131*1.5 = 196 approx= 200 (125 rest, 75 soap)
+--File Size = 5mb
+--Run like that every 5 minutes for 1 hour.
+
+
+
