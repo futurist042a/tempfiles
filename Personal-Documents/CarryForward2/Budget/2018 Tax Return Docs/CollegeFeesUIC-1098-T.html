@@ -1,0 +1,418 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" name="Cache-Control" content="no-cache">
+<meta http-equiv="Cache-Control" name="Cache-Control" content="no-cache">
+<LINK REL="stylesheet" HREF="/UI_css/UI_web_defaultapp.css" TYPE="text/css">
+<LINK REL="stylesheet" HREF="/css/web_defaultprint.css" TYPE="text/css" media="print">
+<title>Tax Notification; Account Billing Information Tab</title>
+<meta http-equiv="Content-Script-Type" name="Default_Script_Language" content="text/javascript">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+window.onunload = function() {submitcount=0;}
+var submitcount=0;
+function checkSubmit() {
+if (submitcount == 0)
+   {
+   submitcount++;
+   return true;
+   }
+else
+   {
+alert("Your changes have already been submitted.");
+   return false;
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) { 
+       if (helpWin) helpWin.focus()
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+</head>
+<body>
+<div class="headerwrapperdiv">
+<div class="pageheaderdiv1">
+<a href="#main_content" onMouseover="window.status='Go to Main Content'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true" onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</a>
+<h1>University of Illinois</h1></DIV><div class="headerlinksdiv">
+<SPAN class="pageheaderlinks2">
+<map name="Module_Navigation_Links_H" title="Module Navigation Links">
+<p>
+<a href="#skip_Module_Navigation_Links_H" onMouseover="window.status='Skip Module Navigation Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Module Navigation Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Module Navigation Links</a>
+<table  CLASS="plaintable" SUMMARY="This is main table for displaying Tab Items."
+                          WIDTH="100%" cellSpacing=0 cellPadding=0 border=0>
+<tr>
+<TD CLASS="pldefault">
+<table  CLASS="plaintable" SUMMARY="This table displays Tab Items."
+                 cellSpacing=0 cellPadding=0 border=0>
+<tr>
+<td class="taboff" height=22>
+<a href="/BANPROD2/twbkwbis.P_GenMenu?name=bmenu.P_GenMnu" onMouseover="window.status='New Personal Information'; return true" onMouseout="window.status=''; return true" onFocus="window.status='New Personal Information'; return true" onBlur="window.status=''; return true" >Personal Information</a>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" CLASS="headerImg" TITLE=""  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8 />
+</TD>
+<td class="taboff" height=22>
+<a href="/BANPROD2/twbkwbis.P_GenMenu?name=bmenu.P_FinAidMainMnu" onMouseover="window.status='Financial Aid '; return true" onMouseout="window.status=''; return true" onFocus="window.status='Financial Aid '; return true" onBlur="window.status=''; return true" >Financial Aid </a>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" CLASS="headerImg" TITLE=""  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8 />
+</TD>
+<td class="taboff" height=22>
+<a href="/BANPROD2/twbkwbis.P_GenMenu?name=pmenu.P_MainMnu" onMouseover="window.status='Employee Services'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Employee Services'; return true" onBlur="window.status=''; return true" >Employee</a>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" CLASS="headerImg" TITLE=""  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8 />
+</TD>
+<td class="taboff" height=22>
+<a href="/BANPROD2/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu" onMouseover="window.status='Registration & Records'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Registration & Records'; return true" onBlur="window.status=''; return true" >Registration & Records</a>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" CLASS="headerImg" TITLE=""  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8 />
+</TD>
+<td class="tabon"  height=22>
+<a href="/BANPROD2/pkg_twbacbil.P_DispAlerts" onMouseover="window.status='Account Billing Information'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Account Billing Information'; return true" onBlur="window.status=''; return true" >Account Billing Information</a>
+</TD>
+<TD class="bgtabon"  height=22 vAlign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" CLASS="headerImg" TITLE=""  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8 />
+</TD>
+<td class="taboff" height=22>
+<a href="/BANPROD2/twbkwbis.P_GenMenu?name=bmenu.P_GradMainMnu" onMouseover="window.status='Graduation'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Graduation'; return true" onBlur="window.status=''; return true" >Graduation</a>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<img src="/wtlgifs/web_tab_corner_right.gif" CLASS="headerImg" TITLE=""  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8 />
+</TD>
+</tr>
+</table>
+</TD>
+</tr>
+<tr>
+<TD class="bgtabon" width="100%" colSpan=2><img src="/wtlgifs/web_transparent.gif" CLASS="headerImg" TITLE=""  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD></tr></table>
+</map>
+</SPAN>
+<a name="skip_Module_Navigation_Links_H"></a>
+</DIV>
+<table  CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox."
+         WIDTH="100%">
+<tr>
+<TD CLASS="pldefault">
+<div class="headerlinksdiv2">
+<form action="/BANPROD2/twbksrch.P_ShowResults" method="post">
+Search
+<SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN class="fieldlabeltext">Search</SPAN></LABEL></SPAN>
+<input type="text" name="KEYWRD_IN" size="20" maxlength="65" ID="keyword_in_id" />
+<input type="submit" value="Go" />
+</form>
+</div>
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext" /p>
+<SPAN class="pageheaderlinks">
+<a href="/BANPROD2/twbkwbis.P_GenMenu?name=bmenu.P_StuAcct_BillInfo"  class="submenulinktext2" id="ssbbackurl">RETURN TO MENU</a>
+|
+<a href="/BANPROD2/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3" accesskey="2" class="submenulinktext2">SITE MAP</a>
+|
+<a href="/UI_help/p_disp_tax_notification.htm" accesskey="H" onClick="popup = window.open('/UI_help/p_disp_tax_notification.htm', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false" target="_blank" onMouseOver="window.status='';  return true" onMouseOut="window.status=''; return true"onFocus="window.status='';  return true" onBlur="window.status=''; return true"  class="submenulinktext2">HELP</a>
+|
+<a href="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</a>
+</span>
+</TD>
+</tr>
+</table>
+</DIV>
+<div class="pagetitlediv">
+<table  CLASS="plaintable" SUMMARY="This table displays title and static header displays."
+   WIDTH="100%">
+<tr>
+<TD CLASS="pldefault">
+<h2>Tax Notification  2018</h2>
+</TD>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext" /p>
+<div class="staticheaders">
+</div>
+</TD>
+</tr>
+<tr>
+<TD class="bg3" width="100%" colSpan=3><img src="/wtlgifs/web_transparent.gif" CLASS="headerImg" TITLE=""  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD>
+</tr>
+</table>
+<a name="main_content"></a>
+</DIV>
+<div class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+<div class="infotextdiv"><table  CLASS="infotexttable" SUMMARY="This layout table contains information that may be helpful in understanding the content and functionality of this page.  It could be a brief set of instructions, a description of error messages, or other special information."><tr><td CLASS="indefault"><img src="/wtlgifs/twgginfo.gif" CLASS="headerImg" TITLE=""  NAME="Info" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=24 WIDTH=27 /></td><td CLASS="indefault"><SPAN class="infotext"> Tax notifications for tax year 2018 will be available by January 31, 2019.<br> For additional information about the 1098-T, please visit <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__paymybill.uillinois.edu_resources_Understanding1098T&d=DwMGaQ&c=1hIq-C3ayh4zm6RZ7m4R2A&r=JrXLpGSnIMNrhGi_Y4sbdVpjOwIr5C9Ly1n2wSBUw0c&m=kYhLYrvFdo8DDKIhUzl7ZIXrCn5o4QE2PpGGFVxCohI&s=lemdV7sbyZ_maU37DOjmX5HurL5uJJD1yLpJSa2ZReU&e=">https://paymybill.uillinois.edu/resources/Understanding1098T</a> . <br>If you have specific question about the amounts reported on your 1098-T, please contact USFSCO at <a href="https://urldefense.proofpoint.com/v2/url?u=https-3A__paymybill.uillinois.edu_Contact&d=DwMGaQ&c=1hIq-C3ayh4zm6RZ7m4R2A&r=JrXLpGSnIMNrhGi_Y4sbdVpjOwIr5C9Ly1n2wSBUw0c&m=kYhLYrvFdo8DDKIhUzl7ZIXrCn5o4QE2PpGGFVxCohI&s=z9hlMSczWjNPtcvBlM5-m71l--WfLHo7p3j5S511WYo&e=">https://paymybill.uillinois.edu/Contact</a><br></SPAN></td></tr></table><p></DIV>
+<a name="Form1098-T">   </a>
+
+<table  CLASS="bordertable" BORDER="1" SUMMARY="This table displays Form 1098-T Tax information based on the year selected."WIDTH="100%"><caption class="captiontext">Form 1098-T</caption>
+<tr>
+<TD ROWSPAN="2" COLSPAN="2" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">FILER's name, address, and contact phone number</SPAN>
+<br />
+University of Illinois
+<br />
+809 S. Marshfield Avenue
+<br />
+Chicago, IL 60612
+<br />
+United States of America
+<br />
+(217)
+3332180
+</TD>
+<TD ROWSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">1  Payments Received</SPAN>
+<br />
+<a href="#PR_Detail">    39,850.00</a>
+</TD>
+<TD ROWSPAN="2" CLASS="dbdefault"><p class="centeraligntext"></p>
+<br />
+<SPAN class="fieldlargetext">2018</SPAN>
+</TD>
+</tr>
+<tr>
+<TD ROWSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">2 Amounts Billed for qualified tuition and related expenses</SPAN>
+<br />
+</TD>
+</tr>
+<tr>
+<TD ROWSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">FILER's Federal Id</SPAN>
+<br />
+376000511
+</TD>
+<TD ROWSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">Student SSN</SPAN>
+<br />
+*****8460
+</TD>
+<TD ROWSPAN="1" COLSPAN="2" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">3 Check if reporting method has changed for 2018</SPAN>
+<br />
+[X]
+</TD>
+</tr>
+<tr>
+<TD ROWSPAN="2" COLSPAN="2" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">STUDENT's name, street</SPAN>
+<br />
+Saliha 
+Awais
+<br />
+1157 W Vernon Park Pl
+<br />
+Chicago, 
+IL 
+60607-3423 
+</TD>
+<TD ROWSPAN="1" COLSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">4 Adjustments</SPAN>
+<br />
+</TD>
+<TD ROWSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">5 Scholarships or Grants</SPAN>
+<br />
+</tr>
+<tr>
+<TD ROWSPAN="1" COLSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">6  Adjustments to Scholarships</SPAN>
+<br />
+</TD>
+<TD ROWSPAN="1" COLSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">7 Check if box 1 includes amounts for academic period beginning January - March 2019</SPAN>
+<br />
+[ ]
+</TD>
+</tr>
+<tr>
+<TD ROWSPAN="1" COLSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">Service Provider/Acct. No. (opt)</SPAN>
+<br />
+</TD>
+<TD ROWSPAN="1" COLSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">8 Check if at least half time student</SPAN>
+<br />
+[X]
+</TD>
+<TD ROWSPAN="1" COLSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">9 Check if a graduate student</SPAN>
+<br />
+[X]
+</TD>
+<TD ROWSPAN="1" COLSPAN="1" CLASS="dbdefault">
+<SPAN class="fieldsmallboldtext">10 Reimbursements from insurance contract</SPAN>
+</TD>
+</tr>
+</table>
+<br />
+<a name="suppl">
+</A>
+
+<table  CLASS="datadisplaytable" summary="This table displays status of student submission and
+                               summary of additional student amounts."><caption class="captiontext">Supplemental Information</caption>
+<tr>
+<th CLASS="ddlabel" scope="row" >Hard Copy Mailed:</th>
+<td CLASS="dddefault">No</td>
+</tr>
+</table>
+<br />
+<a name="PR_Detail">   </a>
+<table  CLASS="datadisplaytable" summary="This table displays detail of Payments Recieved in box 1."><caption class="captiontext">Detail of Payments Received</caption>
+<tr>
+<th CLASS="ddheader" scope="col" >Term</th>
+<th CLASS="ddheader" scope="col" >Code</th>
+<th CLASS="ddheader" scope="col" >Description</th>
+<th CLASS="ddheader" scope="col" >Amount</th>
+<th CLASS="ddheader" scope="col" >Pro-rata</th>
+</tr>
+<tr>
+<td CLASS="dddefault">220181</td>
+<td CLASS="dddefault">&nbsp;</td>
+<td colspan="3" CLASS="dddefault">Spring 2018 - Chicago</td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2145</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Federal Direct Unsub-Loan</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                 $20,034.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2150</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Federal Direct Grad PLUS Loan</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                 $30,093.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2RFD</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Refund</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                -$10,039.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td colspan="3" CLASS="dddefault"><p class="rightaligntext">Term Total: </p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                 $40,088.00</p></td>
+</tr>
+</table>
+<a href="#Form1098-T">Return to Form 1098-T</a>
+<br />
+<br />
+<a name="CB_Detail">   </a>
+<table  CLASS="datadisplaytable" summary="This table displays detail of the amounts billed and included in box 2."><caption class="captiontext">Detail of Amounts Billed</caption>
+<tr>
+<th CLASS="ddheader" scope="col" >Term</th>
+<th CLASS="ddheader" scope="col" >Code</th>
+<th CLASS="ddheader" scope="col" >Description</th>
+<th CLASS="ddheader" scope="col" >Amount</th>
+<th CLASS="ddheader" scope="col" >Pro-rata</th>
+</tr>
+<tr>
+<td CLASS="dddefault">220181</td>
+<td CLASS="dddefault">&nbsp;</td>
+<td colspan="3" CLASS="dddefault">Spring 2018 - Chicago</td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2AFM</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Acad Facility Maint Fund Assmt</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                    $327.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2CIA</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Clinical Infrastructure Assess</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                  $3,819.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2FEF</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Service Fee UIC</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                    $350.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2LIT</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Library & IT Assessment</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                    $220.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2NLF</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">General Fee</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                    $431.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">2RDF</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">Tuit Dental Resident</p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                 $34,703.00</p></td>
+<td CLASS="dddefault"><p class="leftaligntext">&nbsp;</p></td>
+</tr>
+<tr>
+<td colspan="3" CLASS="dddefault"><p class="rightaligntext">Term Total: </p></td>
+<td CLASS="dddefault"><p class="rightaligntext">                 $39,850.00</p></td>
+</tr>
+</table>
+<a href="#Form1098-T">Return to Form 1098-T</a>
+<br />
+<br />
+
+<!--  ** START OF twbkwbis.P_CloseDoc **  -->
+<table  CLASS="plaintable" SUMMARY="This is table displays line separator at end of the page."
+                                             WIDTH="100%" cellSpacing=0 cellPadding=0 border=0><tr><TD class="bgtabon" width="100%" colSpan=2><img src="/wtlgifs/web_transparent.gif" CLASS="headerImg" TITLE=""  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10 /></TD></tr></table>
+<a href="#top" onMouseover="window.status='Skip to top of page'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Skip to top of page'; return true" onBlur="window.status=''; return true" class="skiplinks">Skip to top of page</a>
+</DIV>
+<div class="footerbeforediv">
+
+</DIV>
+<div class="footerlinksdiv">
+<SPAN class="pagefooterlinks">
+<map name="Tax_Notification;_Account_Billing_Information_Tab_Links_F" title="Tax Notification; Account Billing Information Tab Links">
+<p>
+<a href="#skip_Tax_Notification;_Account_Billing_Information_Tab_Links_F" onMouseover="window.status='Skip Tax Notification; Account Billing Information Tab Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Tax Notification; Account Billing Information Tab Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Tax Notification; Account Billing Information Tab Links</a>
+<P>[ <a href="/BANPROD2/bwtktxys.p_get_tax_year" onMouseover="window.status='Select Another Tax Year'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Select Another Tax Year'; return true" onBlur="window.status=''; return true" >Select Another Tax Year</a>
+ ]
+</map>
+</SPAN>
+<a name="skip_Tax_Notification;_Account_Billing_Information_Tab_Links_F"></a>
+</DIV>
+<div class="footerafterdiv">
+
+</DIV>
+<div class="globalafterdiv">
+
+</DIV>
+<div class="globalfooterdiv">
+
+</DIV>
+<div class="pagefooterdiv">
+<SPAN class="releasetext">Release: 8.7.2.7</SPAN>
+</DIV>
+<div class="poweredbydiv">
+</DIV>
+<DIV class="div1"></DIV>
+<DIV class="div2"></DIV>
+<DIV class="div3"></DIV>
+<DIV class="div4"></DIV>
+<DIV class="div5"></DIV>
+<DIV class="div6"></DIV>
+<div class="banner_copyright"> <br><h5>© 2019 Ellucian Company L.P. and its affiliates.<br></h5></div>
+</body>
+</html>
