@@ -1,0 +1,19 @@
+ACID (Atomic (applies to all tables, otherwise fails), consistency, isolated,Durability)
+Avalability over consistency over partitioning (2 out of 3)
+multiple spaces with their configurations
+configuration cannot be at call level but at keyspace level
+
+Keyspace can be specifically made for us
+
+Dev.POC (Biju's team will provide APIs in 48 hours)
+
+We can create GRAPHQL APIs for Dev.POC using self service and also can create APIs, but then you have to do APIs yourself all the way till prod after getting approval from office hours, they will not create anything for you in Dev just migrate.
+
+No SQL vs RDBMS
+https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/relational-vs-nosql-data
+
+Questions:
+We need consistency
+We need ACID
+We need transaction start, commit and rollback
+Can we save type any in Cassandra table
