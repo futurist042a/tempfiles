@@ -1,0 +1,7 @@
+-I will quickly say something about Personal Accountant.
+-Derek White our chief Digital officer in the last all employees conference has encouraged us to consider Wow factor, to be more attractive in the digital world. And one thing he pointed out that Data plays a big part in wow factor.
+-That is one thing that Personal Accountant will do that it will organize bank transactions. And this data can be placed somewhere, in some data platform and can be made availalbe to build cool apps especially in customer financial management domain and customer financial growth domain.
+-This can be looked into what data should be gathered and how it should be stored. But with good data strategy we can achieve alot to relieve pain points for our customers related to their finances. Some of the similar apps that were slected for IIR cohort or incubator and that can utilize this data are Money Mentor, Wymze , ABICUS, U Save Now, Retention Engine, branch work space.
+-Another idea which can use the data which personal accountant can feed into is OTIS and I will ask David to present it.
+
+
